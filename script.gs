@@ -71,6 +71,9 @@ function convertCharacters() {
         text.replaceText(stringArray[i], String.fromCharCode(stringArray[i].charCodeAt(0) - 0xFEE0));
       }
     }
+    if (stringArray[i].charCodeAt(0).toString(16).toUpperCase() == 'FFE5') {
+      text.replaceText(stringArray[i], String.fromCharCode(0x00A5));
+    }
     if (kanaReg.test(stringArray[i])) {
       text.replaceText(stringArray[i], kanaMap[stringArray[i]]);
     }
