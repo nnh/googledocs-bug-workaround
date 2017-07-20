@@ -13,9 +13,9 @@ Usage
   
 Background
 -----
-We've been annoyed about G-Suite bug for a week now. Some of the Japanese characters will be missing when you download as Microsoft word (.docx) or LibreOffice (.odt). Since we been updating documents on Google Docs and download fixed version as Microsoft Word file and file the documents to the customers. The customers will not accept the documents as Rich text file or PDF. We got stuck.
+We've been annoyed about G-Suite bug for a week now (20 July 2017). Some of the Japanese characters will be missing when you download as Microsoft word (.docx) or LibreOffice (.odt). Since we been updating documents on Google Docs and download fixed version as Microsoft Word file and file the documents to the customers. The customers will not accept the documents as Rich text file or PDF. We got stuck.
 
-私達はGoogle Documentのバグに1週間近く悩まされています。日本語文字の幾つかがMicrosoft WordまたはLibreofficeのフォーマットでダウンロードすると消えてしまいます。私達はGoogleDocs上で最新アップデートを管理し、版固定する際にMicrosoft Wordにダウンロードし顧客に納品するという手順を取っていました。顧客はリッチテキストファイルやPDFでの納品を許容していませんので、行き詰まりました。
+私達はGoogle Documentのバグに1週間近く悩まされています(2017.7.20)。日本語文字の幾つかがMicrosoft WordまたはLibreofficeのフォーマットでダウンロードすると消えてしまいます。私達はGoogleDocs上で最新アップデートを管理し、版固定する際にMicrosoft Wordにダウンロードし顧客に納品するという手順を取っていました。顧客はリッチテキストファイルやPDFでの納品を許容していませんので、行き詰まりました。
 
 Reliability of Google and Densan-system for G-suite Japanese custom support is not sufficient for us. We found the bug on last Thursday and reported on Friday. It's been a week and they said yesterday that they will update the status next week.
 
