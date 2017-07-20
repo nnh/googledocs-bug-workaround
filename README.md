@@ -9,8 +9,10 @@ googleドキュメントを.docx形式などでダウンロードした時、一
 
 Usage
 -----
-  * See [wiki][Wiki] for its usage.
-  
+- Select "Tools" > "Script Editor..."
+- Copy and paste the google script "script.gs" and save
+- Select "Run" > "addHighlight" or "convertCharacters"
+
 Background
 -----
 We've been annoyed about G-Suite bug for a week now (20 July 2017). Some of the non-ASCII characters will be missing when you download as Microsoft word (.docx) or LibreOffice (.odt). Since we been updating documents on Google Docs and download fixed version as Microsoft Word file and file the documents to the customers. The customers will not accept the documents as Rich text file or PDF. We got stuck.
@@ -25,11 +27,9 @@ So we made google scripts for the workaround. It will highlight the will-be-dele
 
 そこで私達は問題を回避するためにGoogleScriptを記載しました。これにより削除される文字はハイライトされ、更にそれらを削除されないほぼ同等の文字に置き換えることが出来ます。
 
-
 License
 -------
 googledocs-bug-workaround is licensed under the [MIT](#) license.  
 Copyright &copy; 2017, NHO Nagoya Medical Center and NPO-OSCR
 
-[wiki]: https://github.com/nnh/googledocs-bug-workaround/wiki
 [shield-license]: https://img.shields.io/badge/license-MIT-blue.svg
