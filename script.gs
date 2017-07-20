@@ -42,8 +42,8 @@ function convertCharacters() {
   var reg = /[\uFF01-\uFF5e]/;
   for (var i = 0; i < stringArray.length; i++) {
     if (reg.test(stringArray[i])) {
-      if (stringArray[i].charCodeAt(0).toString(16) == 'ff5e') {
-        text.replaceText(stringArray[i], String.fromCharCode(0x301c));
+      if (stringArray[i].charCodeAt(0).toString(16).toUpperCase() == 'FF5E') {
+        text.replaceText(stringArray[i], String.fromCharCode(0x301C));
       } else {
         text.replaceText(stringArray[i], String.fromCharCode(stringArray[i].charCodeAt(0) - 0xFEE0));
       }

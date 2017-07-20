@@ -1,0 +1,7 @@
+1. output_chars_script.gsをgoogle documentのスクリプトエディタにコピー。
+2. google documentを一度閉じて再度開くと「テスト」メニューが作成される。
+3.「全角記号、英数字一覧」を実行するとドキュメント内にテキストが入力される。
+4. docx形式でダウンロード、txtファイルに変換してng.txtにリネーム、check.rbと同じフォルダに保存。
+5. txt形式でダウンロード、ok.txtにリネーム、check.rbと同じフォルダに保存。
+6. コンソールでcheck.rbファイルがある階層に移動、「ruby check.rb」を実行。
+7. 最後に表示された文字列が欠損文字。
