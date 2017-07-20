@@ -21,7 +21,7 @@ Reliability of Google and Densan-system for G-suite Japanese custom support is n
 
 日本のユーザーに対するグーグルや仲介をしている電算システムのサポートは我々には十分ではありませんでした。私達は木曜日にバグを発見し、金曜日に報告しました。すでに一週間が経っていますが、昨日我々は次の状況報告は来週以降になるとの報告を受けました。
 
-So we made google scripts for the workaround. It will highlight the will-be-deleted characters and replace the characters to equivalent ASCII characters.
+So we made google scripts for the workaround. It will highlight the will-be-deleted characters and replace the characters to equivalent characters.
 
 そこで私達は問題を回避するためにGoogleScriptを記載しました。これにより削除される文字はハイライトされ、更にそれらを削除されないほぼ同等の文字に置き換えることが出来ます。
 
