@@ -232,11 +232,11 @@ ffe4: ￤
 ffe5: ￥　　　→　　　00a5:　¥
 ffe6: ￦
 ffe7: ￧
-ffe8: ￨
-ffe9: ￩
-ffea: ￪
-ffeb: ￫
-ffec: ￬
-ffed: ￭
-ffee: ￮
+ffe8: ￨　　　→　　　007c:　|
+ffe9: ￩　　　→　　　2190:　←
+ffea: ￪　　　→　　　2191:　↑
+ffeb: ￫　　　→　　　2192:　→
+ffec: ￬　　　→　　　2193:　↓
+ffed: ￭　　　→　　　25fc:　◼
+ffee: ￮　　　→　　　25cb:　○
 ffef: ￯

@@ -37,7 +37,7 @@ function convertCharacters() {
   var body = DocumentApp.getActiveDocument().getBody();
   var text = body.editAsText();
 
-  var kanaMap = {
+  var addMap = {
     'ｶﾞ': 'ガ', 'ｷﾞ': 'ギ', 'ｸﾞ': 'グ', 'ｹﾞ': 'ゲ', 'ｺﾞ': 'ゴ',
     'ｻﾞ': 'ザ', 'ｼﾞ': 'ジ', 'ｽﾞ': 'ズ', 'ｾﾞ': 'ゼ', 'ｿﾞ': 'ゾ',
     'ﾀﾞ': 'ダ', 'ﾁﾞ': 'ヂ', 'ﾂﾞ': 'ヅ', 'ﾃﾞ': 'デ', 'ﾄﾞ': 'ド',
@@ -56,9 +56,10 @@ function convertCharacters() {
     'ﾜ': 'ワ', 'ｦ': 'ヲ', 'ﾝ': 'ン',
     'ｧ': 'ァ', 'ｨ': 'ィ', 'ｩ': 'ゥ', 'ｪ': 'ェ', 'ｫ': 'ォ',
     'ｯ': 'ッ', 'ｬ': 'ャ', 'ｭ': 'ュ', 'ｮ': 'ョ',
-    '｡': '。', '､': '、', 'ｰ': 'ー', '｢': '「', '｣': '」', '･': '・'
+    '｡': '。', '､': '、', 'ｰ': 'ー', '｢': '「', '｣': '」', '･': '・',
+    '￨': '|', '￩': '←', '￪': '↑', '￫': '→', '￬': '↓', '￭': '◼', '￮': '○'
   };
-  var kanaReg = new RegExp('(' + Object.keys(kanaMap).join('|') + ')', 'g');
+  var addReg = new RegExp('(' + Object.keys(addMap).join('|') + ')', 'g');
 
   var string = text.getText();
   var stringArray = string.split('');
@@ -74,8 +75,8 @@ function convertCharacters() {
     if (stringArray[i].charCodeAt(0).toString(16).toUpperCase() == 'FFE5') {
       text.replaceText(stringArray[i], String.fromCharCode(0x00A5));
     }
-    if (kanaReg.test(stringArray[i])) {
-      text.replaceText(stringArray[i], kanaMap[stringArray[i]]);
+    if (addReg.test(stringArray[i])) {
+      text.replaceText(stringArray[i], addMap[stringArray[i]]);
     }
   }
 }

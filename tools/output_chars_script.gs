@@ -39,5 +39,7 @@ function test2() {
     }
     text.appendText('~' + end[i].toString(16) + ': ' + chars);
     text.appendText('\n');
+    chars = '';
+    num = 0;
   }
 }
