@@ -23,7 +23,7 @@ Reliability of Google and Densan-system for G-suite Japanese custom support is n
 
 So we made google scripts for the workaround. It will highlight the will-be-deleted characters and replace the characters to equivalent ASCII characters.
 
-そこで私達は問題を回避するためにGoogleScriptを記載しました。これにより削除される文字はハイライトされ、更にそれらを削除されない半角文字に置き換えることが出来ます。
+そこで私達は問題を回避するためにGoogleScriptを記載しました。これにより削除される文字はハイライトされ、更にそれらを削除されないほぼ同等の文字に置き換えることが出来ます。
 
 
 License
