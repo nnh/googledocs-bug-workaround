@@ -12,6 +12,13 @@ Usage
 - Select "Tools" > "Script Editor..."
 - Copy and paste the google script "script.gs" and save
 - Select "Run" > "addHighlight" or "convertCharacters"
+- See "convert_list.txt" for the conversion table
+
+## Usage in Japanese
+- メニューの「ツール」より「スクリプトエディタ...」を選択
+- コード.gsの内容を"script.gs"の内容に置き換えて保存
+- メニューの「実行」より"addHighlight(欠損文字ハイライト)"または"convertCharacters(欠損文字の置換)"を選択
+- 文字の変換テーブルについては"convert_list.txt"を参照ください
 
 Background
 -----
