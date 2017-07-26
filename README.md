@@ -26,13 +26,13 @@ We've been annoyed about G-Suite bug for a week now (20 July 2017). Some of the 
 
 私達はGoogle Documentのバグに1週間近く悩まされています(2017.7.20)。2バイト文字の幾つかがMicrosoft WordまたはLibreofficeのフォーマットでダウンロードすると消えてしまいます。私達はGoogleDocs上で最新アップデートを管理し、版固定する際にMicrosoft Wordにダウンロードし顧客に納品するという手順を取っていました。顧客はリッチテキストファイルやPDFでの納品を許容していませんので、行き詰まりました。
 
-Reliability of Google and Densan-system for G-suite Japanese custom support is not sufficient for us. We found the bug on last Thursday and reported on Friday. It's been a week and they said yesterday that they will update the status next week.
-
-日本のユーザーに対するグーグルや仲介をしている電算システムのサポートは我々には十分ではありませんでした。私達は木曜日にバグを発見し、金曜日に報告しました。すでに一週間が経っていますが、昨日我々は次の状況報告は来週以降になるとの報告を受けました。
-
 So we made google scripts for the workaround. It will highlight the will-be-deleted characters and replace the characters to equivalent characters.
 
 そこで私達は問題を回避するためにGoogleScriptを記載しました。これにより削除される文字はハイライトされ、更にそれらを削除されないほぼ同等の文字に置き換えることが出来ます。
+
+The problem seemed to occur on July 4th and was resolved on July 25th.
+
+この問題は7月4日に起き、7月25日に解決した模様です。
 
 License
 -------
